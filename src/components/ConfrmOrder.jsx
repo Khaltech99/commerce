@@ -4,7 +4,7 @@ const ConfirmOrder = ({ isVisible, onClose, cartItems, totalPrice }) => {
   if (!isVisible) return null; // Don't render modal if it's not visible
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-      <div className="bg-white p-6 rounded-lg w-full max-w-lg relative">
+      <div className="bg-white p-6 rounded-lg w-full max-w-lg relative m-5">
         <button
           className="absolute top-4 right-4 text-redFont font-bold text-lg"
           onClick={onClose}
